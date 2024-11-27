@@ -1,0 +1,5 @@
+This project is a Secure Chat Application developed as part of a Computer Networks course. The application allows users to securely exchange text messages in a multi-client environment through a central server. Users connect to the server by entering their username and the server’s IP address and port. Each client generates an RSA key pair for secure communication, sending the public key to the server. The server maintains a list of active users, and clients can select a recipient from the list to send encrypted messages.
+
+The application uses TCP as the communication protocol for reliable, ordered, and error-free message delivery. RSA asymmetric encryption is used to securely exchange public keys, ensuring that only the intended recipient can decrypt the message using their private key.
+
+This project serves as a hands-on demonstration of key networking and cryptographic concepts, fulfilling the requirements of the Computer Networks course.
